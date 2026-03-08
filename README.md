@@ -26,7 +26,7 @@
 
 ## 🚀 Projects
 
-*(Check out more projects in the [Projects](#projects) section)*
+*(Check out more projects in the [Projects](#Projects) section)*
 
 ---
 

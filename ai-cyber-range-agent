@@ -1,0 +1,194 @@
+
+# AI Cyber Range Agent
+
+An AI-powered agent designed to assist with cybersecurity analysis in a simulated cyber range environment.  
+The system leverages large language models to analyze incidents, reason about possible threats, and recommend actions for security analysts.
+
+---
+
+## Project Overview
+
+Cybersecurity training environments (cyber ranges) simulate real-world cyber attacks to train analysts and evaluate defense strategies. However, analyzing complex attack scenarios often requires significant expertise.
+
+This project explores how AI agents can assist in this process by:
+
+- Analyzing incident logs
+- Reasoning about possible attack paths
+- Recommending mitigation strategies
+- Automating parts of the analyst workflow
+
+The system uses a modular LLM workflow to simulate decision-making processes typically performed by SOC analysts.
+
+---
+
+## Key Features
+
+- AI agent for cybersecurity incident analysis
+- Multi-step reasoning workflow using LLM orchestration
+- Integration with cyber range data and simulated incident logs
+- Retrieval-Augmented Generation (RAG) for knowledge grounding
+- Modular architecture for extending AI security tools
+
+---
+
+## Tech Stack
+
+- Python
+- LangChain
+- LangGraph
+- BentoML
+- OpenAI / LLM APIs
+- Vector databases for retrieval
+
+---
+
+## System Architecture
+
+The system uses an agent-based workflow to process security events.
+
+User Input → Incident Logs → LLM Agent → Reasoning Workflow → Security Recommendations
+
+Components:
+
+1. **Data Ingestion**
+   - Cyber range logs
+   - security event data
+   - incident reports
+
+2. **AI Reasoning Engine**
+   - multi-step reasoning
+   - threat analysis
+   - context retrieval
+
+3. **Knowledge Retrieval**
+   - vector database
+   - security documentation
+   - threat intelligence
+
+4. **Response Generation**
+   - mitigation suggestions
+   - incident explanations
+   - analyst guidance
+
+---
+
+## Example Use Case
+
+Example scenario:
+
+A suspicious login is detected from an unusual location.
+
+Input:
+# AI Cyber Range Agent
+
+An AI-powered agent designed to assist with cybersecurity analysis in a simulated cyber range environment.  
+The system leverages large language models to analyze incidents, reason about possible threats, and recommend actions for security analysts.
+
+---
+
+## Project Overview
+
+Cybersecurity training environments (cyber ranges) simulate real-world cyber attacks to train analysts and evaluate defense strategies. However, analyzing complex attack scenarios often requires significant expertise.
+
+This project explores how AI agents can assist in this process by:
+
+- Analyzing incident logs
+- Reasoning about possible attack paths
+- Recommending mitigation strategies
+- Automating parts of the analyst workflow
+
+The system uses a modular LLM workflow to simulate decision-making processes typically performed by SOC analysts.
+
+---
+
+## Key Features
+
+- AI agent for cybersecurity incident analysis
+- Multi-step reasoning workflow using LLM orchestration
+- Integration with cyber range data and simulated incident logs
+- Retrieval-Augmented Generation (RAG) for knowledge grounding
+- Modular architecture for extending AI security tools
+
+---
+
+## Tech Stack
+
+- Python
+- LangChain
+- LangGraph
+- BentoML
+- OpenAI / LLM APIs
+- Vector databases for retrieval
+
+---
+
+## System Architecture
+
+The system uses an agent-based workflow to process security events.
+
+User Input → Incident Logs → LLM Agent → Reasoning Workflow → Security Recommendations
+
+Components:
+
+1. **Data Ingestion**
+   - Cyber range logs
+   - security event data
+   - incident reports
+
+2. **AI Reasoning Engine**
+   - multi-step reasoning
+   - threat analysis
+   - context retrieval
+
+3. **Knowledge Retrieval**
+   - vector database
+   - security documentation
+   - threat intelligence
+
+4. **Response Generation**
+   - mitigation suggestions
+   - incident explanations
+   - analyst guidance
+
+---
+
+## Example Use Case
+
+Example scenario:
+A suspicious login is detected from an unusual location.
+
+Input:
+User login detected from unknown IP address
+Location: Eastern Europe
+Time: 03:12 AM
+Multiple failed login attempts detected
+
+AI Agent Response:
+Possible brute force attack detected.
+Recommended actions:
+- temporarily lock account
+- enforce password reset
+- investigate IP reputation
+
+---
+
+## Project Structure
+
+ai-cyber-range-agent/
+│
+├── src/
+│   ├── agent.py
+│   ├── workflow.py
+│   └── tools.py
+│
+├── data/
+│   └── sample_incident_logs.json
+│
+├── notebooks/
+│   └── experimentation.ipynb
+│
+├── docs/
+│   └── architecture.md
+│
+├── requirements.txt
+└── README.md
